@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (basicapplication.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  basicapplication.cpp
+c:\users\a00217678\documents\projects\gt41samples\render 23.9.19\basicapplication.cpp(5): fatal error C1083: Cannot open include file: 'Renderable.h': No such file or directory
