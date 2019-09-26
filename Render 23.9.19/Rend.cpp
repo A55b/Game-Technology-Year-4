@@ -2,11 +2,15 @@
 
 
 
-Rend::Rend()
+void Rend::Rend()
 {
 }
 
 
-Rend::~Rend()
+void Rend::~Rend()
+{
+}
+
+ Rend::aitRenderObject()
 {
 }

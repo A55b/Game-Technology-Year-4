@@ -1,102 +1,94 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
+#include <glm/glm.hpp>
 
-#include <Rend.h>
+#include "Rend.h"
 
 using namespace std;
+using namespace glm;
 
-float red = 0.0f;
-float blue = 0.0f;
+GLuint VBO;
+//const int NUMVERTS = 6;
+const int numro = 2;
+Rend myRenderObjects(numro);
 
 static void renderSceneCallBack()
 {
-    glClear(GL_COLOR_BUFFER_BIT);
-    glutSwapBuffers();
-}
+	glClear(GL_COLOR_BUFFER_BIT);
 
-static void processNormalKeys(unsigned char key, int x, int y) 
-{
-
-	if (key == 'a')
+	for (int i = 0; i < numro; i++)
 	{
-		 glClearColor(0.0f, 1.0f, 0.0f, 0.0f); 
-	}
-	else if (key == 'b')
-	{
-		 glClearColor(0.0f, 0.0f, 1.0f, 0.0f); 
-	}
-}
-
-void mouseWheel(int button, int dir, int x, int y)
-{
-	if (dir > 0)
-	{
-		if (red < 0.9f && blue == 0.0f)
-		{
-			red = red + 0.1f;
-			glClearColor(red, 0.0f, 0.0f, 0.0f);
-		}
-		else if (red == 0.0f && blue < 0.9f)
-		{
-			blue = blue - 0.1f;
-			glClearColor(red, 0.0f, blue, 0.0f);
-		}
-	}
-	else if (dir < 0)
-	{
-		if (red == 0.0f && blue <= 0.9f)
-		{
-			red = red - 0.1f;
-			glClearColor(red, 0.0f, blue, 0.0f);
-		}
-		else if (red >= 0.9f && blue == 0.0f)
-		{
-			blue = blue + 0.1f;
-			glClearColor(red, 0.0f, blue, 0.0f);
-		}
-		//glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-	}
-	else if (button > 0)
-	{
-		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+		myRenderObjects[i].render();
 	}
 
-	return;
+	glEnableVertexAttribArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+
+	//glDrawArrays(GL_POINTS, 0, NUMVERTS);
+	//glDrawArrays(GL_TRIANGLES, 0, NUMVERTS);
+	//glDrawArrays(GL_TRIANGLES, 1, NUMVERTS);
+	//glDrawArrays(GL_TRIANGLES, 2, NUMVERTS);
+
+	glDisableVertexAttribArray(0);
+
+	glutSwapBuffers();
 }
 
 static void initializeGlutCallbacks()
 {
-    glutDisplayFunc(renderSceneCallBack);
-	glutIdleFunc(renderSceneCallBack);
-	glutMouseWheelFunc(mouseWheel);
-	//glutKeyboardFunc(processNormalKeys);
+	glutDisplayFunc(renderSceneCallBack);
 }
 
+static void renderSceneCallBack()
+{
+	const int numVertsA = 1;
+	vec2 verticesA[numVertsA];
+	verticesA
+}
 
+static void createVertexBuffer()
+{
+	// Create some vertices to put in our VBO.
+	vec3 vertices[NUMVERTS];
+	vertices[0] = vec3(-0.5f, -0.5f, 0.0f);
+	vertices[1] = vec3(0.5f, -0.5f, 0.0f);
+	vertices[2] = vec3(0.0f, 0.5f, 0.0f);
+	vertices[3] = vec3(0.5f, 1.5f, 0.0f);
+	vertices[4] = vec3(-1.0f, 1.5f, 0.0f);
+	vertices[5] = vec3(0.1f, 0.5f, 0.0f);
+
+	glGenBuffers(1, &VBO);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vec3) * NUMVERTS, vertices, GL_STATIC_DRAW);
+}
 
 
 int main(int argc, char** argv)
 {
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGBA);
-    glutInitWindowSize(1024, 768);
-    glutInitWindowPosition(100, 100);
-    glutCreateWindow("Basic Application");
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	glutInitWindowSize(1024, 768);
+	glutInitWindowPosition(100, 100);
+	glutCreateWindow("Basic Application");
 
-    initializeGlutCallbacks();
+	initializeGlutCallbacks();
 
-    // Must be done after glut is initialized!
-    GLenum res = glewInit();
-    if (res != GLEW_OK) 
-    {
-		cerr<<"Error: "<<glewGetErrorString(res)<<"\n";
+	// Must be done after glut is initialized!
+	GLenum res = glewInit();
+	if (res != GLEW_OK)
+	{
+		cerr << "Error: " << glewGetErrorString(res) << "\n";
 		return 1;
-    }
+	}
 
-    glClearColor(1.0f, 0.0f, 0.0f, 0.0f); 
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
-    glutMainLoop();
-    
-    return 0;
+	// Create a vertex buffer
+	createVertexBuffer();
+
+	glutMainLoop();
+
+	return 0;
 }
