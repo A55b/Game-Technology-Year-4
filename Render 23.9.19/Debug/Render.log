@@ -1,3 +1,485 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (basicapplication.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   basicapplication.cpp
-c:\users\a00217678\documents\projects\gt41samples\render 23.9.19\basicapplication.cpp(5): fatal error C1083: Cannot open include file: 'Renderable.h': No such file or directory
+  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\iostream
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\istream
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ostream
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ios
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xlocnum
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\climits
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\yvals.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\yvals_core.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xkeycheck.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\crtdefs.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\sal.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\concurrencysal.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vadefs.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\crtdbg.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_new_debug.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_new.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\use_ansi.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\limits.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cmath
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstdlib
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_malloc.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_search.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stddef.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdlib.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\math.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_math.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xtgmath.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xtr1common
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstdio
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_stdio_config.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\streambuf
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xiosbase
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xlocale
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstring
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_memory.h
+  Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_memcpy_s.h
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\errno.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_string.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstring.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\stdexcept
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\exception
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\type_traits
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xstddef
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstddef
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\initializer_list
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\malloc.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_exception.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\eh.h
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_terminate.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xstring
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xmemory0
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstdint
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\stdint.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\limits
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ymath.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cfloat
+  Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\float.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cwchar
+  Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\wchar.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wconio.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wctype.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wdirect.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wio.h
+  Note: including file:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_share.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wprocess.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wtime.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/stat.h
+  Note: including file:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/types.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\new
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xutility
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\utility
+  Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\iosfwd
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xatomic0.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\intrin0.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\typeinfo
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_typeinfo.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xlocinfo
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xlocinfo.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\ctype.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\locale.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\memory
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xmemory
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xfacet
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\system_error
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cerrno
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xcall_once.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xerrc.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\share.h
+  Note: including file: C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\GL/glew.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\GL/glu.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\winapifamily.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\winpackagefamily.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\GL/gl.h
+  Note: including file: C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\GL/freeglut.h
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\gl\freeglut_std.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\windows.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\sdkddkver.h
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\excpt.h
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\stdarg.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\windef.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\minwindef.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\specstrings.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\specstrings_strict.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\specstrings_undef.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\driverspecs.h
+  Note: including file:        c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\sdv_driverspecs.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winnt.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\kernelspecs.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\basetsd.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\guiddef.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack8.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack1.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\pshpack1.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\poppack.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\apiset.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\ktmtypes.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winbase.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\apisetcconv.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\minwinbase.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\processenv.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\fileapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\debugapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\utilapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\handleapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\errhandlingapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\fibersapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\namedpipeapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\profileapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\heapapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\ioapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\synchapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\interlockedapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\processthreadsapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\memoryapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\enclaveapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\threadpoollegacyapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\threadpoolapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\jobapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\jobapi2.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\wow64apiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\libloaderapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\securitybaseapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\namespaceapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\systemtopologyapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\processtopologyapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\securityappcontainer.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\realtimeapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\winerror.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\timezoneapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\wingdi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack4.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winuser.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\pshpack2.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\tvout.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winnls.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\datetimeapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\stringapiset.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winnls.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\wincon.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\consoleapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winver.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\verrsrc.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winreg.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\reason.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winnetwk.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\wnnc.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\stralign.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsvc.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\mcx.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\imm.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\ime_cmodes.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\GL/gl.h
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\gl\freeglut_ext.h
+  Note: including file: C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\glm/glm.hpp
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/_fixes.hpp
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\fwd.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_int.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\setup.hpp
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\emmintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xmmintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\mmintrin.h
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_float.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\precision.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat.hpp
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec2.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec2.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec3.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec3.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec4.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec4.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x2.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x2.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x3.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x3.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x4.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x4.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x2.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x2.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x3.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x3.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x4.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x4.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x2.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x2.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x3.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x3.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x4.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x4.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\trigonometric.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_trigonometric.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_trigonometric.inl
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\_vectorize.hpp
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec1.hpp
+  Note: including file:       c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec1.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\exponential.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_exponential.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_exponential.inl
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_vector_relational.hpp
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_vector_relational.inl
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\common.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_common.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\_fixes.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_common.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\packing.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_packing.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_packing.inl
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_half.hpp
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_half.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\geometric.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_geometric.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_geometric.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\matrix.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_matrix.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_matrix.inl
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vector_relational.hpp
+  Note: including file:  c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\integer.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_integer.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_integer.inl
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\intrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\setjmp.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\immintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\wmmintrin.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\nmmintrin.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\smmintrin.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\tmmintrin.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\pmmintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\zmmintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ammintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\mm3dnow.h
+  Note: including file: c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\Rend.h
+  Note: including file:  C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\glm/glm.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/_fixes.hpp
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.h(10): warning C4183: 'TMGRenderObject': missing return type; assumed to be a member function returning 'int'
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(14): error C2664: 'Rend::Rend(Rend &&)': cannot convert argument 1 from 'const int' to 'const Rend &'
+  c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(14): note: Reason: cannot convert from 'const int' to 'const Rend'
+  c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(14): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(22): error C2676: binary '[': 'Rend' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(45): error C2084: function 'void renderSceneCallBack(void)' already has a body
+  c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(16): note: see previous definition of 'renderSceneCallBack'
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(49): error C2143: syntax error: missing ';' before '}'
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(54): error C2065: 'NUMVERTS': undeclared identifier
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(64): error C2065: 'NUMVERTS': undeclared identifier
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\basicapplication.cpp(64): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+  Rend.cpp
+  Note: including file: c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\Rend.h
+  Note: including file:  C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\GL/glew.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\GL/glu.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\winapifamily.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\winpackagefamily.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\GL/gl.h
+  Note: including file:  C:\Users\Tom\Documents\C++\Game-Technology-Year-4\3rdparty\include\glm/glm.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/_fixes.hpp
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cmath
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\yvals.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\yvals_core.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xkeycheck.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\crtdefs.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\sal.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\concurrencysal.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vadefs.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\crtdbg.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_new_debug.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_new.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\use_ansi.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstdlib
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_malloc.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_search.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stddef.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdlib.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\limits.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\math.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_math.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xtgmath.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xtr1common
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\climits
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cfloat
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\float.h
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\limits
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ymath.h
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cwchar
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\wchar.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_memcpy_s.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\errno.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\vcruntime_string.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wconio.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_stdio_config.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wctype.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wdirect.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wio.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_share.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wprocess.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstring.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wtime.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/stat.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/types.h
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xstddef
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstddef
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\initializer_list
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\fwd.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_int.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\setup.hpp
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\emmintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\xmmintrin.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\mmintrin.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\malloc.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cstdint
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\stdint.h
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_float.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\precision.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec2.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec2.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec3.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec3.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vec4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_vec4.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec4.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x2.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x2.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x3.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x3.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat2x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat2x4.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat2x4.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x2.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x2.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x3.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x3.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat3x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat3x4.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat3x4.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x2.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x2.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x2.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x3.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x3.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x3.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\mat4x4.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/type_mat4x4.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_mat4x4.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\trigonometric.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_trigonometric.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_trigonometric.inl
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\_vectorize.hpp
+  Note: including file:       c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec1.hpp
+  Note: including file:        c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_vec1.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\exponential.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_exponential.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_exponential.inl
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_vector_relational.hpp
+  Note: including file:       c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_vector_relational.inl
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\cassert
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\assert.h
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\common.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_common.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\_fixes.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_common.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\packing.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_packing.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_packing.inl
+  Note: including file:      c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_half.hpp
+  Note: including file:       c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\type_half.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\geometric.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_geometric.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_geometric.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\matrix.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_matrix.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_matrix.inl
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\vector_relational.hpp
+  Note: including file:   c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\integer.hpp
+  Note: including file:    c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail/func_integer.hpp
+  Note: including file:     c:\users\tom\documents\c++\game-technology-year-4\3rdparty\include\glm\detail\func_integer.inl
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\intrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\intrin0.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\setjmp.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\immintrin.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\wmmintrin.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\nmmintrin.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\smmintrin.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\tmmintrin.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\pmmintrin.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\zmmintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\ammintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include\mm3dnow.h
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.h(10): warning C4183: 'TMGRenderObject': missing return type; assumed to be a member function returning 'int'
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(6): error C2533: 'Rend::{ctor}': constructors not allowed a return type
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(6): error C2600: 'Rend::Rend': cannot define a compiler-generated special member function (must be declared in the class first)
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(11): error C2577: 'Rend::~Rend': a destructor cannot have a return type
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(11): error C2600: 'Rend::~Rend': cannot define a compiler-generated special member function (must be declared in the class first)
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(14): error C2039: 'aitRenderObject': is not a member of 'Rend'
+  c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.h(7): note: see declaration of 'Rend'
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\tom\documents\c++\game-technology-year-4\render 23.9.19\rend.cpp(16): warning C4508: 'aitRenderObject': function should return a value; 'void' return type assumed
+  Generating Code...
