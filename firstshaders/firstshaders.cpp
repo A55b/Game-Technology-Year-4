@@ -43,9 +43,9 @@ static void createVertexBuffer()
 	vertices[1] = vec3(0.5f, -0.5f, 0.0f);
 	vertices[2] = vec3(0.0f, 0.5f, 0.0f);
     
- 	glGenBuffers(1, &VBO);
+ 	/*glGenBuffers(1, &VBO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);*/
 }
 
 static void addShader(GLuint shaderProgram, const char* pShaderText, GLenum shaderType)
