@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="firstshaders.cpp" />
+    <ClCompile Include="TmgRender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fragmentshader.glsl" />
@@ -19,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aiterror.h" />
+    <ClInclude Include="TmgRender.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}</ProjectGuid>
