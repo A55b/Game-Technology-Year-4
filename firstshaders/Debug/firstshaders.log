@@ -1,9 +1,2 @@
-﻿  firstshaders.cpp
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C3646: 'readFileToString': unknown override specifier
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C2059: syntax error: '('
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C2238: unexpected token(s) preceding ';'
-  TmgRender.cpp
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C3646: 'readFileToString': unknown override specifier
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C2059: syntax error: '('
-c:\users\tom\documents\c++\game-technology-year-4\firstshaders\tmgrender.h(19): error C2238: unexpected token(s) preceding ';'
-  Generating Code...
+﻿  TmgRender.cpp
+  firstshaders.vcxproj -> C:\Users\A00217678\Documents\Projects\gt41samples\firstshaders\Debug\firstshaders.exe

@@ -15,17 +15,15 @@ public:
 	void TMGRenderObject();
 	bool createVboFromArray(vec3 vertexArray[], unsigned int size);
 	void render();
-	void CreateShaders();
-	string readFileToString(char* filename);
-	void addShader(GLuint shaderProgram, const char* pShaderText, GLenum shaderType);
+	//void CreateShaders();
+	//string readFileToString(char* filename);
+	//void addShader(GLuint shaderProgram, const char* pShaderText, GLenum shaderType);
 	//GLuint Getvbo();
 
 private:
 	GLuint vbo;
 	unsigned int numVerts;
-
 	GLuint shaderProgram;
-
 	//float size;
 };
 
