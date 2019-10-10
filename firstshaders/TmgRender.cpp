@@ -24,13 +24,13 @@ bool TmgRender::createVboFromArray(vec3 vertexArray[], unsigned int size)
 	numVerts = size;
 	glGenBuffers(1, &vbo);
 	glBindBuffer(GL_ARRAY_BUFFER, vbo);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertexArray), vertexArray, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vec3) * size, vertexArray, GL_STATIC_DRAW);
 	
 	return true;
 }
 
 void TmgRender::render() {
-	glClear(GL_COLOR_BUFFER_BIT);
+
 
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, vbo);
@@ -39,7 +39,7 @@ void TmgRender::render() {
 
 	glDisableVertexAttribArray(0);
 
-	glutSwapBuffers();
+
 }
 //
 //string readFileToString(char* filename)

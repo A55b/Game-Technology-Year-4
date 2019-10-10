@@ -23,7 +23,7 @@ public:
 private:
 	GLuint vbo;
 	unsigned int numVerts;
-	GLuint shaderProgram;
+	//GLuint shaderProgram;
 	//float size;
 };
 

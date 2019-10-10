@@ -18,7 +18,9 @@ TmgRender R;
 
 static void renderSceneCallBack()
 {
+	glClear(GL_COLOR_BUFFER_BIT);
 	R.render();
+	glutSwapBuffers();
 }
 
 static void initializeGlutCallbacks()
