@@ -11,8 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="firstshaders.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="TmgRender.cpp" />
+    <ClCompile Include="TMG_Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fragmentshader.glsl" />
@@ -21,12 +22,14 @@
   <ItemGroup>
     <ClInclude Include="aiterror.h" />
     <ClInclude Include="TmgRender.h" />
+    <ClInclude Include="TMG_Shader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>basicapplication</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>RenderProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
