@@ -1,0 +1,4 @@
+﻿  transformations.cpp
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  transformations.vcxproj -> C:\Users\A00217678\Documents\Projects\gt41samples\transformations\Debug\transformations.exe
