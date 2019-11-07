@@ -1,0 +1,5 @@
+﻿  lighting.cpp
+c:\users\a00217678\documents\projects\gt41samples\lighting\lighting.cpp(71): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  lighting.vcxproj -> C:\Users\A00217678\Documents\Projects\gt41samples\lighting\Debug\lighting.exe
