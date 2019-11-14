@@ -1,0 +1,6 @@
+﻿  texturemappingwlight.cpp
+c:\users\a00217678\documents\projects\gt41samples\texturemappingwlight\texturemappingwlight.cpp(179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  texturemappingwlight.vcxproj -> C:\Users\A00217678\Documents\Projects\gt41samples\texturemappingwlight\Debug\texturemappingwlight.exe
